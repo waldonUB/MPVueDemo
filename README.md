@@ -2,7 +2,7 @@
 
 > A Mpvue project
 
-## Build Setup
+## Build Setup // 本地冲突
 
 ``` bash
 # 初始化项目
