@@ -22,7 +22,7 @@
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
 
-    <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
+    <a href="/pages/counter/main" class="counter">去往Vuex示例</a>
 
     <div class="all">
         <div class="left">
@@ -50,7 +50,6 @@ export default {
   components: {
     card
   },
-
   methods: {
     bindViewTap () {
       const url = '../logs/main'
@@ -65,7 +64,6 @@ export default {
       // throw {message: 'custom test'}
     }
   },
-
   created () {
     // let app = getApp()
   }
