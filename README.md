@@ -1,39 +1,26 @@
-# my-project
+# 我的一天移动端
+## 功能概要
+### 1.首屏加载页面
+用于广告和海报（让其他页面预加载？）
+### 2.时间分类
+- 添加时间计划
+- 添加分配时间的滑块
+- 添加查看进度的方式（1.剩余时间  2.进度百分比）
+### 3.提醒设置
+- 添加独特的声音提醒
+- 调用横幅
+### 4.计划设置
+- 点击开始后，自动更新剩余时间和百分比
+- 点击其他计划时，自动暂停当前计划，开始当前点击的计划
+- 结束完一天后，自动统计其他时间和所有计划的完成进度，加入周计划，月计划，年计划数据的统计（周，月，年报可以放在banner的轮播图中）
+### 5.添加个性化功能
+- 贴吧查询
 
-> A Mpvue project
 
-// 本地的测试冲突分支
-
-## Build Setup // 测试冲突
-
-``` bash
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
-
-# 安装依赖 // 测试冲突，第二次
-yarn
-
-# 开发时构建
-npm dev
-
-# 打包构建
-npm build
-
-# 指定平台的开发时构建(微信、百度、头条、支付宝)
-npm dev:wx
-npm dev:swan
-npm dev:tt
-npm dev:my
-
-# 指定平台的打包构建
-npm build:wx
-npm build:swan
-npm build:tt
-npm build:my
-
-# 生成 bundle 分析报告
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 目前时间管理
+- 工作后的代码时间  1.5小时
+- 学日语 0.5小时
+- 工作时间 11小时
+- 睡眠时间 7小时
+- 吃饭时间 1.5小时
+- 其他时间 2.5小时
